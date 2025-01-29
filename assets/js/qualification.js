@@ -1,32 +1,42 @@
 const qualifications = [
     {
-        title: "Full Stack Web Development",
-        year: 2022,
+        title: "MERN Stack Web Development",
+        year: 2024,
         description: "Complete web development course which included HTML to JavaScript, React, Node/Expressjs, MongoDB etc.",
         institute: {
             name: "Programming Hero",
             shortName: "PHero",
-            duration: "Jun 2021 - December 2021"
+            duration: "Jun 2024 - December 2024"
         }
     },
     {
-        title: "BSc. in Computer Science & Engineering (CSE)",
+        title: "Diploma. in Computer Science & Engineering (CSE)",
+        year: 2023,
+        description: "I have achieved a four-year Diploma in Computer Science & Engineering from Bogra Polytechnic Institute. It was truly a great experience in life.",
+        institute: {
+            name: "Bogra Polytechnic Institute",
+            shortName: "BPI",
+            duration: "Nav 2019 - Nav 2022"
+        }
+    },
+    {
+        title: "Learning & Earning Development Project (LEDP)",
         year: 2020,
-        description: "Achieved four years bechelor degree from a reputed university. It was a great really a experience of life.",
+        description: "I have achieved a 6 month long Professional Outsourcing Training hold in 2020 on web design and development -WDD. It was truly a great experience in life.",
         institute: {
-            name: "Daffodil International University",
-            shortName: "DIU",
-            duration: "January 2016 - December 2020"
+            name: "Learning & Earning Development Project",
+            shortName: "LEDP",
+            duration: "6 month"
         }
     },
     {
-        title: "Higher Secondary School Certificate",
-        year: 2014,
-        description: "Achieved two years higher secondary degree from Science major from a reputed college.",
+        title: "Secondary School Certificate (SSC)",
+        year: 2018,
+        description: "Achieved a one year Secondary School Certificate in Science from a Gobindagonj high school.",
         institute: {
-            name: "Brindaban Govt. College",
-            shortName: "BGC",
-            duration: "July 2012 - Jun 2014"
+            name: "Gobindagonj high school",
+            shortName: "GHS",
+            duration: "Feb 2018 - Feb 2019"
         }
     },
 ];
