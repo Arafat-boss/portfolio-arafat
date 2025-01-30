@@ -1,21 +1,27 @@
 const recentWorks = [
     {
-        title: "Personal Portfolio",
-        description: "Professional page for personal portfolio showcase.",
+        title: "Collaborative Study",
+        description: "Three roles are used in this website Student, Tutor, Admin Dashboard.",
         techs: ["Tailwind", "JS", "Vite"],
-        img: "/images/personal-portfolio.png"
+        img: "/images/project1.png",
+        link:'https://collaborative-study-plat-312b7.web.app/',
+        gitHub:''
     },
     {
-        title: "Doctors Portal",
-        description: "Doctors appointment booking website.",
+        title: "Volunteer for Bangladesh",
+        description: "This is a volunteer website, visit my website",
         techs: ["React", "Node", "JS"],
-        img: "/images/doctors-portal.png"
+        img: "/images/project2.png",
+        link:'https://assignment-11-eabb3.web.app/',
+        gitHub:'https://github.com/Arafat-boss/need-volunteer-website'
     },
     {
-        title: "Digital Marketing",
-        description: "Professional page for digital marketing.",
+        title: "Game Reviews",
+        description: "You can also give game reviews or watch game reviews here.    you  delete, edit your review, ",
         techs: ["BS5", "CSS", "JS"],
-        img: "/images/digital-marketing.png"
+        img: "/images/project-3.png",
+        link:'https://assignment-game-review.web.app/',
+        gitHub:'https://github.com/Arafat-boss/games-review-website'
     },
 ];
 const parent = document.getElementById('recent-works');
@@ -38,9 +44,19 @@ const html = recentWorks.map(work =>
         <div class="my-4 flex flex-wrap">
             ${getTech(work.techs)}
         </div>
-        <a href="https://github.com/nchdatta/personal-portfolio" target="_blank"
+        <a href=${work.link} target="_blank"
             class="w-full inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center rounded-lg text-white bg-blue-500 hover:bg-blue-600 dark:text-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600">
-            Read more
+            Live Link
+            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+        </a>
+        <a href=${work.gitHub} target="_blank"
+            class="mt-2 w-full inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center rounded-lg text-white bg-blue-500 hover:bg-blue-600 dark:text-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600">
+            Git Link
             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd"
