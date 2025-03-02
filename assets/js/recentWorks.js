@@ -5,7 +5,7 @@ const recentWorks = [
         techs: ["Tailwind", "JS", "Vite"],
         img: "/images/project1.png",
         link:'https://collaborative-study-plat-312b7.web.app/',
-        gitHub:''
+        gitHub:'https://github.com/Arafat-boss/collaborative-study-website'
     },
     {
         title: "Volunteer for Bangladesh",
@@ -19,7 +19,7 @@ const recentWorks = [
         title: "Game Reviews",
         description: "You can also give game reviews or watch game reviews here.    you  delete, edit your review, ",
         techs: ["BS5", "CSS", "JS"],
-        img: "/images/project-3.png",
+        img: "/images/project3.png",
         link:'https://assignment-game-review.web.app/',
         gitHub:'https://github.com/Arafat-boss/games-review-website'
     },

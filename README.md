@@ -1,6 +1,6 @@
 
 # Personal Portfolio
-
+Live Link: https://portfolio-arafat.web.app/
 
 ## Objective
 
@@ -23,15 +23,11 @@ Different technologies used to implement this personal portfolio website.
  - vscode
 
 ## How To Install & Run 
-Step 1: Clone project `git clone https://github.com/nchdatta/personal-portfolio`\
+Step 1: Clone project `https://github.com/Arafat-boss/portfolio-arafat`\
 Step 2: Locate to Project folder\
 Step 3: Run command `npm i` on terminal\
 Step 4: Run command `npm run dev` or `yarn dev`\
 Step 5: To build, run command `npm run build`
-
-## Important Links
-Github: [https://github.com/nchdatta/personal-portfolio](https://github.com/nchdatta/personal-portfolio)\
-Live Website: [https://nayanchdatta.netlify.app](https://nayanchdatta.netlify.app/)
 
 
 ### #Stay Happy, Stay Coding!
