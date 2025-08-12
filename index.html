@@ -7,6 +7,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+  <!-- ?Google FOnt-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Arafat Portfolio | MERN stack</title>
   <script src="https://kit.fontawesome.com/dcaf69cdd3.js" crossorigin="anonymous"></script>
@@ -18,8 +22,8 @@
     <nav
       class="lg:mt-2 shadow-md lg:rounded-full px-2 sm:px-4 py-3 lg:border-none border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 w-full lg:w-2/3 fixed top-0 z-20">
       <div class="container flex flex-row-reverse lg:flex-row flex-wrap items-center justify-between mx-auto">
-        <a href="#" class="pr-2" title="Nayan Chandra Datta">
-          <i class="fa-solid fa-code fa-md text-blue-600 dark:text-gray-300"></i>
+        <a href="#" class="pr-2 protest-riot-regular dark:text-gray-300" title="Arafat Sarker">
+         <i class="fa-solid fa-code fa-md text-blue-600 dark:text-gray-300"></i> ARAFAT <i class="fa-solid fa-code fa-md text-blue-600 dark:text-gray-300"></i>
         </a>
 
         <button data-collapse-toggle="navbar" type="button"
@@ -35,14 +39,17 @@
                 class="block py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 md:hover:bg-transparent lg:hover:bg-white rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:hover:bg-transparent dark:hover:bg-gray-700"
                 aria-current="page">Home</a>
             </li>
-            <li><a href="https://drive.google.com/file/d/1u8jAdyy3LwjB4kyDgaMt_WnTHHLaXU1m/view?usp=sharing"
-                target="_blank"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Resume</a>
+            <li>
+              <a href="https://drive.google.com/uc?export=download&id=1JWrzIuntfLVd3K_1Lgi8jWN9c9kIX56y" download class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 
+            md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 
+            dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 
+            dark:hover:text-white md:dark:hover:bg-transparent">
+                Resume
+                <i class="fa-solid fa-download"></i>
+              </a>
+
             </li>
-            <li><a href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Hire
-                me</a>
-            </li>
+
             <li>
               <button id="theme-toggle" type="button"
                 class=" text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5">
@@ -81,7 +88,8 @@
             <h1 class="text-2xl font-bold text-gray-900 dark:text-gray-200">MD. ARAFAT SARKER</h1>
             <p class="text-sm text-gray-700 dark:text-gray-500">Analytical, self-motivating and confident.
             </p>
-            <h2 class="text-md font-normal text-gray-800 dark:text-gray-400 mt-2">MERN, React Js, Frontend Developer, Web Developer.</h2>
+            <h2 class="text-md font-normal text-gray-800 dark:text-gray-400 mt-2">Frontend Developer, Backend Developer,
+              MERN, React Js, Web Developer.</h2>
 
             <div class="flex mt-6">
               <a href="https://www.facebook.com/Arraf.Ja/" target="_blank"

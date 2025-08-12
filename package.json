@@ -15,7 +15,11 @@
     "vite": "^3.2.3"
   },
   "dependencies": {
+    "@tsparticles/all": "^3.8.1",
+    "@tsparticles/react": "^3.0.0",
     "firebase": "^11.2.0",
-    "flowbite": "^1.5.4"
+    "flowbite": "^1.5.4",
+    "react-icons": "^5.5.0",
+    "tsparticles-slim": "^2.12.0"
   }
 }
