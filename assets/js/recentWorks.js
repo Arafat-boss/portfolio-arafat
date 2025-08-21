@@ -9,7 +9,7 @@ const recentWorks = [
     },
     {
         title: "Volunteer for Bangladesh",
-        description: "This is a volunteer website, visit my website",
+        description: "This is a volunteer website,This is also working add,delete,update. visit my website",
         techs: ["React", "Node", "JS"],
         img: "/images/project2.png",
         link:'https://assignment-11-eabb3.web.app/',
